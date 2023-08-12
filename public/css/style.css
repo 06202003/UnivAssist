@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blob1{
+    border-radius: 61% 39% 70% 30% / 30% 30% 70% 70% ;
+    max-height: 300px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+.blob2{
+    border-radius: 11% 89% 27% 73% / 30% 46% 54% 83%  ;
+    max-height: 300px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.cardMenuDalam1{
+    background-image: url("/../img/koscari.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    text-shadow: 3px 3px black;
+    width: 100%;
+    height: 18rem;
+}
+
+.cardMenuDalam2{
+    background-image: url("/../img/laptopsewa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardMenuDalam3{
+    background-image: url("/../img/bukupinjam.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardMenuDalam4{
+    background-image: url("/../img/komunitas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.maha{
+    background-image: url("/../img/maha.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blur1 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    text-shadow: 3px 3px black;
+    width: 100%;
+    /*height: 50vh;*/
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    font-size: 3.5em;
+}
+
+.number{
+    font-size: 5em;
+    font-weight: bold;
+}
+.kataNumber{
+    font-size: 2em;
+}
+
+/*Button*/
+.btn-conteinerA {
+    display: flex;
+    justify-content: center;
+    --color-text: #ffffff;
+    --color-background: #AA998F;
+    --color-outline: #ff145b80;
+    --color-shadow: #00000080;
+}
+
+.btn-contentA {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    background: var(--color-background);
+    transition: 1s;
+    border-radius: 100px;
+    box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-contentA:hover, .btn-contentA:focus {
+    transition: 0.5s;
+    -webkit-animation: btn-content 1s;
+    animation: btn-content 1s;
+    outline: 0.1em solid transparent;
+    outline-offset: 0.2em;
+    box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-contentA .icon-arrowA {
+    transition: 0.5s;
+    margin-right: 0px;
+    transform: scale(0.6);
+}
+
+.btn-contentA:hover .icon-arrowA {
+    transition: 0.5s;
+    margin-right: 25px;
+}
+
+.icon-arrowA {
+    width: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 6%;
+}
+
+/* SVG */
+#arrow-icon-oneA {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+#arrow-icon-twoA {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.btn-contentA:hover #arrow-icon-threeA {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-contentA:hover #arrow-icon-oneA {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-contentA:hover #arrow-icon-twoA {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+
+    50% {
+        fill: var(--color-background);
+    }
+
+    100% {
+        fill: white;
+    }
+}
+
+/* Button animations */
+@-webkit-keyframes btn-contentA {
+    0% {
+        outline: 0.2em solid var(--color-background);
+        outline-offset: 0;
+    }
+}
+
+@keyframes btn-contentA {
+    0% {
+        outline: 0.2em solid var(--color-background);
+        outline-offset: 0;
+    }
+}
+/**/
+
+.gambarkos{
+    width: auto;
+    height: 350px;
+}

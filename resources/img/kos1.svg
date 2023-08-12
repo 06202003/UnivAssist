@@ -1,0 +1,8 @@
+<svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+	<defs>
+		<clipPath id="blob">
+			<path fill="#474bff" d="M404,294.5Q349,349,294.5,362Q240,375,179,368.5Q118,362,83,301Q48,240,101.5,197.5Q155,155,197.5,114Q240,73,309,87.5Q378,102,418.5,171Q459,240,404,294.5Z" />
+		</clipPath>
+	</defs>
+	<image x="0" y="0" width="100%" height="100%" clip-path="url(#blob)" xlink:href="https://img.freepik.com/free-photo/bedroom-interior_1098-15128.jpg?w=996&amp;t=st=1690948624~exp=1690949224~hmac=af9449a0dea14ae86103b88759a53ef7e0e41496531a8d4d0f1cb7e4c0fab4e1" preserveAspectRatio="xMidYMid slice"></image>
+</svg>
